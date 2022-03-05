@@ -317,7 +317,6 @@ footer a {
 
 .mob-block {
   width: 400px;
-  border: 1px solid black;
   /* display: flex;
   flex-direction: column; */
   /* align-items: center;   */
@@ -325,14 +324,20 @@ footer a {
   margin: 20px;
   line-height: 48px;
   font-weight: 700;
-  padding: 4px 8px;
+  padding: 4px 0;
   border-radius: 15px;
   margin: 0 auto;
   /* display: none; */
   background: white;
   z-index: 2;
 }
+.mob-block div{
+  border-bottom: 1px solid #EFEFEF;
+}
 
+.mob-block div:last-child{
+  border: none;
+}
 .mob-block a {
   color: red;
 }
@@ -340,6 +345,7 @@ footer a {
 .cancel a {
   color: black;
   font-weight: 400;
+
 }
 
 /* .hover-block{
@@ -361,10 +367,12 @@ footer a {
   top: 0;
   left: 0;
   right: 0; 
+
   height: 100vh;
   display: grid;
   align-content: center;
   /* display: none; */
+  position: fixed;
 }
 .docenter{
   display: none;
