@@ -97,10 +97,7 @@ header {
   margin-bottom: 44px;
 }
 
-.one,
-.two {
-  /* border: 1px solid red; */
-}
+
 
 .one {
   display: flex;
@@ -331,13 +328,15 @@ footer a {
   background: white;
   z-index: 2;
 }
-.mob-block div{
+
+.mob-block div {
   border-bottom: 1px solid #EFEFEF;
 }
 
-.mob-block div:last-child{
+.mob-block div:last-child {
   border: none;
 }
+
 .mob-block a {
   color: red;
 }
@@ -366,15 +365,15 @@ footer a {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0; 
-
+  right: 0;
   height: 100vh;
   display: grid;
   align-content: center;
   /* display: none; */
   position: fixed;
 }
-.docenter{
+
+.docenter {
   display: none;
 }
 
@@ -639,6 +638,11 @@ align-items: center;
     border-radius: 50%;
   }
 
+  .mob-block {
+    width: 260px;
+    height: 200px;
+    font-size: 14px;
+  }
 
 }
 
